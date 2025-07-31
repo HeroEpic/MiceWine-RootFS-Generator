@@ -71,6 +71,7 @@ mesa-zink
 pcre2
 glib
 icoutils
+ffmpeg
 gstreamer
 gst-plugins-base
 gst-plugins-good
