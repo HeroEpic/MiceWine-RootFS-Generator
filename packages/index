@@ -76,6 +76,7 @@ gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
 gst-plugins-bad
+gst-libav
 box64-0.3.2
 box64-0.3.3-8bb53e1
 box64-0.3.4
