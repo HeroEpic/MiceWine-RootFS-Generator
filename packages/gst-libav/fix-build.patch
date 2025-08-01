@@ -1,0 +1,11 @@
+*** Begin Patch
+*** Update File: meson.build
+@@
++# --- begin: desabilitar linkagem automática de lzma e bz2 ---
++# substitui as dependências reais por stubs não encontrados
++lzma_stub = dependency('', required: false)
++bz2_stub = dependency('', required: false)
++meson.override_dependency('lzma', lzma_stub)
++meson.override_dependency('bz2', bz2_stub)
++# --- end: desabilitar linkagem automática de lzma e bz2 ---
+*** End Patch
